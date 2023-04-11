@@ -7,7 +7,7 @@
 
 ### 1.1 Run Blob Storage Inventory Report
 
-Generate an .parquet inventory report file using the [Azure Blob inventory feature](https://learn.microsoft.com/en-us/azure/storage/blobs/blob-inventory). At minimum the report will need to capture the following fields  ***Name***, ***Content-Length*** and ***Access-Tier*** and should be written-out to a location accessible by Azure Databricks.
+Generate a .parquet inventory report file using the [Azure Blob inventory feature](https://learn.microsoft.com/en-us/azure/storage/blobs/blob-inventory). The report will need to capture the following fields  ***Name***, ***Content-Length*** and ***Access-Tier*** and should be written-out to a location accessible by Azure Databricks.
 
 ### 1.2 Generate Hierarchical Dataset from Inventory Report
 
